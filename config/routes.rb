@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'breweries#index'
+  
   resources :beers
   resources :breweries
   # The priority is based upon order of creation: first created -> highest priority.
